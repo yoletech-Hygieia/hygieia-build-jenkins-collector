@@ -89,6 +89,10 @@ jenkins.folderDepth=${JENKINS_FOLDER_DEPTH:-10}
 #jenkins.usernames[0]=user
 #jenkins.apiKeys[0]=12345
 
+#============================================================ server setup
+server.port=${PORT:-8080}
+#============================================================ 
+
 EOF
 
 # find how many jenkins urls are configured
